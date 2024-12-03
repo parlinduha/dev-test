@@ -1,0 +1,30 @@
+ion-content {
+  --background: url('../../assets/Images/base.jpg') no-repeat center center / cover;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content:end;
+  align-items: center;
+  height: 100%;
+}
+.layout-bottom {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: end;
+}
+
+
+.layout-bottom img {
+  max-width: 100%;
+  height: 200px;
+  width: 200px;
+}

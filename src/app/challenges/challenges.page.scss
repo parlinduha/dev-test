@@ -1,0 +1,42 @@
+ion-content {
+  --background: url('../../assets/Images/base.jpg') no-repeat center center / cover;
+  background-position: center;
+  background-size: cover;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.layout-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.layout-top img {
+  max-width: 100%;
+  height: auto;
+}
+
+.layout-bottom {
+  padding: 20px;
+  display: flex;
+}
+
+.layout-bottom ion-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.layout-bottom img {
+  max-width: 100%;
+  height: auto;
+}
