@@ -1,13 +1,19 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>tabs</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-tabs>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="challenges" href="/tabs/challenges">
+      <img src="../../assets/Images/statistics.png" alt="">
+      <ion-label>Challenges</ion-label>
+    </ion-tab-button>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">tabs</ion-title>
-    </ion-toolbar>
-  </ion-header>
-</ion-content>
+    <ion-tab-button tab="result" href="/tabs/result">
+      <img src="../../assets/Images/event.png" alt="">
+      <ion-label>Results</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="info" href="/tabs/info">
+      <img src="../../assets/Images/info.png" alt="">
+      <ion-label>Info</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>
+
+</ion-tabs>
